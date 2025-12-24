@@ -17,7 +17,11 @@
 		"type": "git",
 		"url": "git://github.com/11ty/eleventy-base-blog.git"
 	},
-	"author": "Zach Leatherman <zachleatherman@gmail.com> (https://zachleat.com/)",
+	"author": {
+		"name": "Zach Leatherman",
+		"email": "zachleatherman@gmail.com",
+		"url": "https://zachleat.com/"
+	},
 	"license": "MIT",
 	"engines": {
 		"node": ">=18"
@@ -44,7 +48,5 @@
 	},
 	"dependencies": {
 		"@zachleat/heading-anchors": "^1.0.5"
-	},
-	"main": "eleventy.config.js",
-	"keywords": []
+	}
 }
