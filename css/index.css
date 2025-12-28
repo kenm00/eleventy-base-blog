@@ -18,6 +18,8 @@
 	--text-color-link-visited: #17050F;
 
 	--syntax-tab-size: 2;
+
+	color-scheme: light dark;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -96,6 +98,13 @@ figcaption {
   text-align: center;
   color: gray;
 }
+
+pre {
+  background-color: light-dark(#FFFAF0, #101921);
+  border-radius: 8px;
+  padding: 25px 50px 50px 50px;
+}
+
 
 p:last-child {
 	margin-bottom: 0;
