@@ -2,7 +2,7 @@
 title: Adding a Bread Lamp to Home Assistant
 description: I made my bread lamp dimmable over Wi-Fi.
 date: 2025-12-23
-tags: home assistant
+tags: Home Assistant
 ---
 This is my first post so I will write about a simple project.
 
